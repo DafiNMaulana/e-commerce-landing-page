@@ -1,0 +1,193 @@
+
+
+body {
+	overflow: hidden;
+}
+
+/*navbar*/
+.logo {
+	font-family: 'Nunito', sans-serif;
+}
+.tmbl-signup {
+	border: 2px solid #ff496e !important;
+	color: #ff496e !important;
+	transition: .3s;
+}
+.tmbl-signup:hover {
+	background-color: #ff496e !important;
+	color: white !important;
+}
+.active {
+	transition: .3s;
+	border: 0;
+	color: #ff496e !important;
+}
+
+.nav-txt {
+	transition: .3s;
+}
+.nav-txt:hover {
+	color: #ff496e !important;
+}
+/*akhir navbar*/
+
+
+/*main comtent*/
+.gambar {
+	display: none;
+}
+.img {
+	width: 650px;
+	z-index: -1;
+	/*border: 1px solid black;*/
+}
+.cont-img {
+	top: -50px;
+}
+.desc {
+	max-width: 430px;
+}
+.button {
+	background-color: #ff496e;
+	transition: .4s;
+}
+.button:hover {
+	background-color: #FF345D;
+}
+.bg-icon {
+	background-color: #ff496e;
+	color: white;
+}
+.bg-icon:hover {
+	background-color: white;
+	color: white;
+	background-color: #FA335B;
+}
+/*akhir main*/
+
+/*responsif*/
+
+@media(max-width: 990px) {
+	.img {
+		display: none;
+		width: 500px;
+	}
+	.gambar {
+		display: block;
+		width: 750px;
+		top: 5px;
+		z-index: -9;
+	}
+	.tmbl-signup {
+		width: 100px;
+		margin-left: 36px;
+	}
+	.navbar-collapse {
+		background-color: #fff;
+		box-shadow: 0px 1px 2px -2px black;
+		position: absolute !important;
+		top: 70px;
+		width: 75%;
+	}
+	.cont-desc {
+		top: 340px;
+	}
+	body {
+	overflow: visible;
+	}
+}
+
+@media(max-width: 800px) {
+	body {
+		overflow: visible;
+	}
+	.img {
+		display: none;
+		width: 500px;
+	}
+	.gambar {
+		display: block;
+		top: 20px;
+		left: 0;
+		z-index: -9;
+	}
+	.tmbl-signup {
+		width: 100px;
+		margin-left: 36px;
+	}
+	.navbar-collapse {
+		background-color: #fff;
+		box-shadow: 0px 1px 2px -2px black;
+		position: absolute !important;
+		top: 70px;
+	}
+	.cont-desc {
+		top: 380px;
+	}
+}
+
+@media(max-width: 582px) {
+	body {
+		overflow: visible;
+	}
+	.img {
+		display: none;
+		width: 500px;
+	}
+	.gambar {
+		display: block;
+		top: 20px !important;
+		z-index: -9;
+	}
+	.cont-desc {
+		top: 250px;
+	}
+	.text-truncate {
+		z-index: -999;
+	}
+	.navbar-collapse {
+		position: absolute !important;
+		top: 70px;
+		background-color: #fff;
+		width: 90%;
+	}
+	.tmbl-signup {
+		width: 100px;
+		margin-left: 30px;
+	}
+}
+@media(max-width: 450px) {
+	body {
+		overflow: visible;
+	}
+	.cont-desc {
+		top: 180px;
+	}
+}
+@media(max-width: 330px) {
+	body {
+		overflow: visible;
+	}
+	.cont-desc {
+		top:90px;
+	}
+}
+@media(max-width: 280px) {
+	body {
+		overflow: visible;
+	}
+	.cont-desc {
+		top:60px;
+	}
+}
+@media(max-width: 1199px) {
+	body {
+		overflow: visible;
+	}
+	.img {
+		width: 500px;
+		z-index: -1;
+	}
+}
+
+/*akhir responsif*/
